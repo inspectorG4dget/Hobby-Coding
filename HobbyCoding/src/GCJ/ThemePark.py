@@ -1,0 +1,54 @@
+'''
+Created on Jan 18, 2011
+
+@author: ashwin
+'''
+
+def fit(L,k):
+	""" Return i such that:
+		1. 0 <= i <= len(L)
+		2. sum(L[:i]) <= k"""
+	total = 0
+	i = 0
+	l = len(L)
+	while total <= k and i<l:
+		total += L[i]
+		i += 1
+	return i
+		
+def calc(R, k, L):
+	total = 0
+	for _ in range(R):
+		i = fit(L, k)
+		total += sum(L[:i])
+		l = len(L)
+		L[:l-i], L[l-i:] = L[i:], L[:i]
+	return total
+
+def run(infilepath, outfilepath):
+	output = open(outfilepath, 'w')
+	with open(infilepath, 'r') as input:
+		T = int(input.readline().strip())
+		for t in range(T):
+			print t
+			line1 = input.readline().strip()
+			line2 = input.readline().strip()
+
+			R, k, N = [int(i) for i in line1.strip().split()]			
+			L = [int(i) for i in line2.strip().split()]
+			
+			output.write("Case #%d: %d\n" %(t+1, calc(R, k, L)))
+			
+		output.close()
+	
+if __name__ == "__main__":
+	import timeit
+	print 'starting'
+	
+	infilepath = "C-small-practice.in"
+	outfilepath = "C-small-practice.out"
+	t = timeit.Timer("run(infilepath, outfilepath)", "from __main__ import run, infilepath, outfilepath")
+	print t.timeit(1)
+#	run(infilepath, outfilepath)
+	
+	print 'done'

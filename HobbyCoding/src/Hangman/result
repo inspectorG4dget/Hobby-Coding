@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='2'
+    datatypes=''
+    timedout=''
+    timing='1.619'
+    parsetiming='0.366'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP581019ga8553455872a200001e4763i6bhe442f0&amp;s=22'
+    related='http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSP581119ga8553455872a2000042c1h0aa2488d2e6&amp;s=22'
+    version='2.1'>
+ <pod title='Input'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>_ | _ | _ | _ | c | _ | l | _ | _ | i | s | t</plaintext>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP581219ga8553455872a200006091eah3adfa469b?MSPStoreType=image/gif&amp;s=22'
+       alt='_ | _ | _ | _ | c | _ | l | _ | _ | i | s | t'
+       title='_ | _ | _ | _ | c | _ | l | _ | _ | i | s | t'
+       width='116'
+       height='20' />
+  </subpod>
+ </pod>
+ <pod title='English words'
+     scanner='WordPuzzle'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>g | y | n | e | c | o | l | o | g | i | s | t
+l | e | x | i | c | o | l | o | g | i | s | t
+m | a | l | a | c | o | l | o | g | i | s | t
+m | u | s | i | c | o | l | o | g | i | s | t
+t | o | x | i | c | o | l | o | g | i | s | t</plaintext>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP581319ga8553455872a200002ieh50cb9hdh3abd?MSPStoreType=image/gif&amp;s=22'
+       alt='g | y | n | e | c | o | l | o | g | i | s | t
+l | e | x | i | c | o | l | o | g | i | s | t
+m | a | l | a | c | o | l | o | g | i | s | t
+m | u | s | i | c | o | l | o | g | i | s | t
+t | o | x | i | c | o | l | o | g | i | s | t'
+       title='g | y | n | e | c | o | l | o | g | i | s | t
+l | e | x | i | c | o | l | o | g | i | s | t
+m | a | l | a | c | o | l | o | g | i | s | t
+m | u | s | i | c | o | l | o | g | i | s | t
+t | o | x | i | c | o | l | o | g | i | s | t'
+       width='138'
+       height='159' />
+  </subpod>
+ </pod>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/DictionaryLookupSourceInformationNotes.html'
+      text='Dictionary lookup' />
+ </sources>
+</queryresult>
